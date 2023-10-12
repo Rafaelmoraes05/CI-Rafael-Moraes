@@ -4,7 +4,7 @@
 package CI.RafaelMoraes;
 
 public class Library {
-    public boolean someLibraryMethod(0) {
+    public boolean someLibraryMethod() {
         return true;
     }
 }
