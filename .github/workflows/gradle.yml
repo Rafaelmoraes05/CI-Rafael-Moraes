@@ -20,6 +20,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: docker://rafaelmoraes55/pratica-docker:aula-docker-2023
 
     steps:
     - uses: actions/checkout@v3
